@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서관 검색</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>지역별 도서관 검색</h1>
+    <form action="/search" method="post">
+        <label for="region">지역명을 입력하세요:</label>
+        <input type="text" id="region" name="region" placeholder="예: 해운대구" required>
+        <button type="submit">검색</button>
+    </form>
+</body>
+</html>
